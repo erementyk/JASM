@@ -1,0 +1,31 @@
+{
+    "name": "erementyk/JASM",
+    "description": "Just Another Social Media",
+    "version": "0.1",
+    "license": "GNU GPL v3",
+    "authors": [
+        {
+            "name": "Erement Hompage",
+            "email": "e.erementchouk@itevas.ru",
+            "role": "CTO"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "evas-php/evas-auth": "dev-main",
+        "evas-php/evas-base": "dev-main",
+        "evas-php/evas-db": "dev-dev",
+        "evas-php/evas-di": "dev-main",
+        "evas-php/evas-http": "dev-main",
+        "evas-php/evas-orm": "dev-dev",
+        "evas-php/evas-router": "dev-main",
+        "evas-php/evas-validate": "dev-main",
+        "evas-php/evas-web": "dev-main"
+    },
+    "require-dev": {
+        "codeception/codeception": "~4.1",
+        "codeception/module-rest": "~2.0",
+        "codeception/module-phpbrowser": "~2.0",
+        "codeception/module-asserts": "^1.0.0"
+    }
+}
